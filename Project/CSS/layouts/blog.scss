@@ -1,0 +1,49 @@
+.blog {
+	height: 100%;
+	width: 600px;
+	margin: 0 0 0 45px;
+}
+
+.blog-head {
+	position: relative;
+	height: 35px;
+	margin: 0 0 15px 0;
+}
+
+.newspaper {
+	position: absolute;
+	width: 120px;
+	height: 70px;
+	background: url('../../adds/knewsticker.png') no-repeat;
+	background-size: 120px 90px;
+	z-index: 1;
+	top: -20px;
+	left: -15px;
+}
+
+.blog-head-block {
+	position: absolute;
+	width: 535px;
+	line-height: 35px;
+	left: 25px;
+	background: #707070;
+	text-align: center;
+	border-radius: 5px;
+	color: #fff;
+	line-height: 35px;
+	&:hover {
+		color: #6ebacd;
+	} 
+}
+
+.publication-head {
+	margin: 15px 0 0 0;
+	font-size: 18px;
+	color: #6ebacd;
+}
+
+.publication {
+	margin: 10px 0 0 15px;
+	font-size: 13px;
+	text-indent: 15px;
+}

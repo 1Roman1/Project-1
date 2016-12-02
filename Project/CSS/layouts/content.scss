@@ -1,0 +1,31 @@
+.content {
+	width: 1560px;
+	background: linear-gradient(#dcdcdc, #fff 20px);
+	border-bottom: 1px solid #ccc;
+	padding: 20px;
+	border-bottom: 1px solid #ccc;
+}
+
+.content-top {
+	margin: 85px auto 0;
+	position: relative;
+	width: 995px;
+	height: 300px;
+	box-shadow: 15px 15px 15px #ccc;
+	border: 1px solid #ccc;
+}
+
+.border {
+	position: absolute;
+	width: 1px;
+	height: 260px;
+	background: #ccc;
+	left: 410px;
+	top: 20px;
+}
+
+.content-bottom {
+	margin: 50px auto;
+	width: 1000px;
+	height: 400px;
+}

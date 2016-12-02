@@ -1,0 +1,71 @@
+.viewport {
+	margin: 10px 0 0 15px;
+	width: 380px;
+	height: 240px;
+	overflow: hidden;
+	position: relative;
+}
+
+.slidewrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 240px;
+	margin: 0;
+	padding: 10px 0 0 0;
+}
+
+.slide {
+	width: 380px;
+	height: 240px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	
+}
+
+.slide-1 {
+	background: url("../../adds/1.png") #ff0000;
+	background-size: 380px 240px;
+}
+
+.slide-2 {
+	background: #00ff00;
+}
+
+.slide-3 {
+	background: #0000ff;
+}
+
+.slider-panel {
+	position: relative;
+	width: 350px;
+	background: #707070;
+	line-height: 30px;
+	margin: 0 0 0 30px;
+	justify-content: center;
+	border-radius: 0 0 5px 5px;
+}
+
+.slider-arrow-left {
+	display: block;
+	width: 0;
+	height: 0;
+	position: absolute;
+	border: 10px solid transparent;
+	border-right: 20px solid #fff;
+	left: 10px;
+	top: 5px;
+	outline: none;
+}
+
+.slider-arrow-left:hover {
+	border-right-color: #6ebacd;
+}
+
+.slider-arrow-right {
+	@extend .slider-arrow-left;
+	left: 310px;
+	transform: rotate(180deg);
+}

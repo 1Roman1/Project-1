@@ -1,0 +1,19 @@
+.container {
+	display: flex;
+	flex-flow: column;
+}
+
+.row {
+	display: flex;
+	flex-flow: row;
+}
+
+.col {
+	display: flex;
+}
+
+.wrap {
+	width: 1600px;
+	height: 1200px;
+	margin: 0 auto;
+}

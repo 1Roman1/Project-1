@@ -1,0 +1,80 @@
+.head-line {
+	width: 100%;
+	height: 50px;
+	background: linear-gradient(#f7f7f7, #fff, #e4e4e4);
+	box-shadow: inset 0 -1px #ccc;
+	border-bottom: 1px solid #fff;
+	align-items: center;
+}
+
+.welcome {
+	margin: 0 0 0 400px;
+	color: #515151;
+	font-size: 15px;
+}
+
+.action {
+	width: 200px;
+	height: 30px;
+	margin: 0 0 0 70px;
+	padding: 0 10px;
+	background: #9b9b9b;
+	border-radius: 5px;
+	color: #fff;
+	align-items: center;
+	justify-content: space-around;
+	a {
+		outline: none;
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+	a:active {
+		color: #ccc;
+	}
+}
+
+.search {
+	position: relative;
+}
+
+.fa-search:before {
+	position: absolute;
+	color: #777;
+	font-size: 15px;
+	left: 180px;
+	top: 5px;
+	z-index: 1;
+}
+
+.search-row {
+	position: relative;
+	border-radius: 15px;
+	margin: 0 0 0 170px;
+	padding: 0 0 0 30px;
+	width: 200px;
+	height: 20px;
+
+}
+
+.img {
+	position: relative;
+	width: 1600px;
+	height: 252px;
+	box-shadow: inset 0 -1px #ccc;
+	}
+
+.roadside {
+	left: 400px;
+	top: 20px;
+	position: absolute;
+	font-size: 48px;
+	color: #4d4d4d;
+}
+
+.studio {
+	position: absolute;
+	left: 403px;
+	top: 70px;
+	letter-spacing: 30px;
+}
