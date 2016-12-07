@@ -40,7 +40,7 @@
 
 .fa-search:before {
 	position: absolute;
-	color: #777;
+	color: #ccc;
 	font-size: 15px;
 	left: 180px;
 	top: 5px;
@@ -54,7 +54,9 @@
 	padding: 0 0 0 30px;
 	width: 200px;
 	height: 20px;
-
+	outline: none;
+	border: 1px solid #ccc;
+	z-index: 0;
 }
 
 .img {

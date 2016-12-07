@@ -29,3 +29,20 @@
 	width: 1000px;
 	height: 400px;
 }
+
+.button {
+	position: absolute;
+	height: 25px;
+	line-height: 25px;
+	font-size: 15px;
+	width: 250px;
+	margin: 35px 0 0 0;
+	border: none;
+	box-shadow: 7px 7px 20px #777;
+	border-radius: 20px;
+	color: #707070;
+	background: linear-gradient(#fff, #ccc);
+	outline: none;
+	text-align: center;
+	text-decoration: none;
+}	
