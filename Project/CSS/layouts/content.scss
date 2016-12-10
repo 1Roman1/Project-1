@@ -11,6 +11,7 @@
 	position: relative;
 	width: 995px;
 	height: 300px;
+	-webkit-height: 375px;
 	box-shadow: 15px 15px 15px #ccc;
 	border: 1px solid #ccc;
 }
@@ -28,15 +29,16 @@
 	margin: 50px auto;
 	width: 1000px;
 	height: 400px;
+	position: relative;
 }
 
 .button {
+	bottom: 0;
 	position: absolute;
 	height: 25px;
 	line-height: 25px;
 	font-size: 15px;
 	width: 250px;
-	margin: 35px 0 0 0;
 	border: none;
 	box-shadow: 7px 7px 20px #777;
 	border-radius: 20px;
@@ -46,3 +48,11 @@
 	text-align: center;
 	text-decoration: none;
 }	
+
+.button-twit {
+	left: 0;
+}
+
+.button-blog {
+	left: 420px;
+}
