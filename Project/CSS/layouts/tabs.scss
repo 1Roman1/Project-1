@@ -23,8 +23,9 @@
 
 .tabs-content.active {
 	display: block;
-	height: 270px;
-	width: 500px
+	height: 250px;
+	width: 500px;
+	overflow: hidden;
 }
 
 .tabs-content {
